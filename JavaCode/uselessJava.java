@@ -2,7 +2,10 @@
 
 public class uselessJava{
 	public static void main(String[] args){
-		System.out.println("Hello another line!!!");
+		hello();
+	}
+	public void hello(){
+	System.out.println("Hello World");
 	}
 }
 
