@@ -5,8 +5,12 @@ public class uselessJava{
 		hello();
 	}
 	public void hello(){
-	System.out.println("Hello World");
+		System.out.println("Hello World");
 	}
+	public void greetings(String name){
+		System.out.println("Hello, how are you "+name+"?");
+	}
+
 }
 
 //Java Program

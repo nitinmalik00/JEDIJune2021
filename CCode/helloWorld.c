@@ -1,13 +1,11 @@
 // Hello world program
 
 #include <stdio.h>
-
-void hello();
+void greetings(char name[]);
 int main(){
-	printf("Hello World! I am using Linux vim editor");
-	hello();
+	char name[] = "Alia bhat";
+	greetings(name);
 }
-void hello(){
-	printf("World is Awesome!");
-	printf("OK ok world\n");
+void greetings(char name[]){
+	printf("Hey, where was you? ... %s",name);
 }
